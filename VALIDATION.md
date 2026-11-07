@@ -2,6 +2,7 @@
 
 ## Current release: 1.2.2
 
+- Universal release ZIP: Intel (`x86_64`) and Apple silicon (`arm64`) slices compiled for macOS 13+, merged and checked with `lipo`. The signed bundle was verified after extracting the archive.
 - Built with Apple Swift 6.2.1 Command Line Tools on an Intel Mac running macOS 26.5.2.
 - `./scripts/test.sh`: **26 passed, 0 failed**. The runner uses stub API responses for network checks; it does not access an API key or change permissions.
 - Physical hold-to-talk and cleaned text insertion passed in TextEdit.

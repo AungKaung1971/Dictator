@@ -21,7 +21,7 @@ if [[ "${1:-}" == "--universal" ]]; then
         cp -X "$BIN_PATH/Dictator" "$STAGING_DIR/Dictator-$ARCH"
     done
     xcrun lipo -create "$STAGING_DIR/Dictator-x86_64" "$STAGING_DIR/Dictator-arm64" -output "$STAGED_APP/Contents/MacOS/Dictator"
-    xcrun lipo -verify_arch x86_64 arm64 "$STAGED_APP/Contents/MacOS/Dictator"
+    xcrun lipo "$STAGED_APP/Contents/MacOS/Dictator" -verify_arch x86_64 arm64
 else
     swift build -c release --disable-sandbox --cache-path "$PWD/.build/cache"
     BIN_PATH=$(swift build -c release --show-bin-path --disable-sandbox --cache-path "$PWD/.build/cache")
