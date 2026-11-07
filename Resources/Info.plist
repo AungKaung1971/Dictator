@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>local.dictator.mac</string>
+<key>CFBundleName</key><string>Dictator</string>
+<key>CFBundleDisplayName</key><string>Dictator</string>
+<key>CFBundleExecutable</key><string>Dictator</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.2.2</string>
+<key>CFBundleVersion</key><string>6</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSUIElement</key><true/>
+<key>NSMicrophoneUsageDescription</key><string>Dictator records your voice while you hold the dictation shortcut or use hands-free mode, and sends it to OpenAI for transcription.</string>
+<key>NSHighResolutionCapable</key><true/>
+</dict></plist>

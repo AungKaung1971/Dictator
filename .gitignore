@@ -1,0 +1,16 @@
+.build/
+build/
+.DS_Store
+.env
+*.xcuserstate
+
+.signing/
+*.keychain
+*.keychain-db
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.log
+__pycache__/
