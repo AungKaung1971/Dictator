@@ -19,7 +19,7 @@ The download contains both Intel and Apple silicon executables. macOS 13 Ventura
 
 The release is signed with the maintainer's persistent local certificate. It is **not Apple Developer ID signed or notarised**, so a downloaded copy may be blocked by macOS. If you trust this source, attempt to open it, then use **System Settings → Privacy & Security → Open Anyway** and confirm. See [Apple's instructions for opening apps safely](https://support.apple.com/en-gb/102445). Do not disable Gatekeeper or SIP. Building from source is another option.
 
-This repository is currently private. GitHub downloads require repository access; the maintainer can also share the release ZIP directly. The ZIP contains the app and its public signature, with no API keys or private signing credentials.
+The release ZIP contains the app and its public signature, with no API keys or private signing credentials. You can share the release link or the ZIP directly.
 
 ## First-time setup
 
